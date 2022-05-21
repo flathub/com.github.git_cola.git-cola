@@ -14,6 +14,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --filesystem=home
+  - --filesystem=xdg-data/Trash
 
 modules:
   # generated with flatpak-pip-generator
