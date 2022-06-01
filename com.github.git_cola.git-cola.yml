@@ -29,7 +29,6 @@ modules:
       - cp ${FLATPAK_DEST}/share/git-cola/icons/git-cola.svg  ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/
       - cp -r share/applications ${FLATPAK_DEST}/share/applications
       - cp -r share/metainfo ${FLATPAK_DEST}/share/metainfo
-      - install -Dm0755 $(which git) ${FLATPAK_DEST}/bin/
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
@@ -37,6 +36,10 @@ modules:
         commit: 699cdec67a7195c7f6bd6cf5e4354c168aed0d44
         x-checker-data:
           type: git
-          tag-pattern: ^([\d.]+)$
+          tag-pattern: ^v([\d.]+)$
       - type: patch
         path: appstream.patch
+
+  - tcl.json
+  - tk.json
+  - git.json
