@@ -1,6 +1,6 @@
 app-id: com.github.git_cola.git-cola
 runtime: org.kde.Platform
-runtime-version: '5.15-21.08'
+runtime-version: 5.15-21.08
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
 base-version: 5.15-21.08
@@ -32,8 +32,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
-        tag: v3.12.0
-        commit: 699cdec67a7195c7f6bd6cf5e4354c168aed0d44
+        tag: v4.0.0
+        commit: 53ef2e329f01bf5928fbe33675f06b32cb1413bd
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
