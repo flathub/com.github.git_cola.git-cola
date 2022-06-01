@@ -40,4 +40,6 @@ modules:
       - type: patch
         path: appstream.patch
 
+  - tcl.json
+  - tk.json
   - git.json
