@@ -37,6 +37,6 @@ modules:
         commit: 699cdec67a7195c7f6bd6cf5e4354c168aed0d44
         x-checker-data:
           type: git
-          tag-pattern: ^([\d.]+)$
+          tag-pattern: ^v([\d.]+)$
       - type: patch
         path: appstream.patch
