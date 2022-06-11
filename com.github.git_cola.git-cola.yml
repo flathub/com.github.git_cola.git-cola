@@ -19,6 +19,7 @@ finish-args:
 
 modules:
   # generated with flatpak-pip-generator
+  - python3-setuptools.json
   - python3-send2trash.json
 
   - name: git-cola
