@@ -26,7 +26,7 @@ modules:
   - name: git-cola
     buildsystem: simple
     build-commands:
-      - pip3 install --exists-action=i --no-index --prefix=${FLATPAK_DEST} .
+      - pip3 install --exists-action=i --no-index --file-links="file://${PWD}" --prefix=${FLATPAK_DEST} .
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
