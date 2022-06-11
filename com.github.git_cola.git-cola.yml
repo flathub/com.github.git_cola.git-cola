@@ -19,13 +19,14 @@ finish-args:
 
 modules:
   # generated with flatpak-pip-generator
-  - python3-setuptools.json
+  - python3-build.json
   - python3-send2trash.json
+  - python3-setuptools_scm.json
 
   - name: git-cola
     buildsystem: simple
     build-commands:
-      - pip3 install --no-index --prefix=${FLATPAK_DEST} .
+      - pip3 install --exists-action=i --no-index --prefix=${FLATPAK_DEST} .
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
