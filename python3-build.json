@@ -1,0 +1,34 @@
+{
+    "name": "python3-build",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"build\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl",
+            "sha256": "ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/f4/67/846c08e18fefb265a66e6fd5a34269d649b779718d9bf59622085dabd370/pep517-0.12.0-py2.py3-none-any.whl",
+            "sha256": "dd884c326898e2c6e11f9e0b64940606a93eb10ea022a2e067959f3a110cf161"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl",
+            "sha256": "5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/97/75/10a9ebee3fd790d20926a90a2547f0bf78f371b2f13aa822c759680ca7b9/tomli-2.0.1-py3-none-any.whl",
+            "sha256": "939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/7a/24/ee8271da317b692fcb9d026ff7f344ac6c4ec661a97f0e2a11fa7992544a/build-0.8.0-py3-none-any.whl",
+            "sha256": "19b0ed489f92ace6947698c3ca8436cb0556a66e2aa2d34cd70e2a5d27cd0437"
+        }
+    ]
+}
