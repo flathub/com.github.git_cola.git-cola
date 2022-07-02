@@ -1,0 +1,14 @@
+{
+    "name": "python3-qtpy",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"qtpy\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/8b/51/898d185af59cf0c7e035c0dc2739909d48396f1a08b3231bd0e09564a3e0/QtPy-2.2.0-py3-none-any.whl",
+            "sha256": "d283cfba378b0dbe36a55b68aea8ee2f86cd6ccf06c023af25bbe705ffbb29e5"
+        }
+    ]
+}
