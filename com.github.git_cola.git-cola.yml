@@ -18,9 +18,6 @@ finish-args:
   - --socket=ssh-auth
 
 modules:
-  # generated with flatpak-pip-generator
-  - python3-send2trash.json
-
   - name: git-cola
     buildsystem: simple
     build-commands:
