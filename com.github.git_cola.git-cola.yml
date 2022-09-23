@@ -1,9 +1,9 @@
 app-id: com.github.git_cola.git-cola
 runtime: org.kde.Platform
-runtime-version: 5.15-21.08
+runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 5.15-21.08
+base-version: 5.15-22.08
 command: git-cola
 rename-desktop-file: git-cola.desktop
 rename-icon: git-cola
