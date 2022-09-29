@@ -27,13 +27,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
-        tag: v4.0.1
-        commit: 34c72b2fd827fac47d1676fb4b4207753067e408
+        tag: v4.0.2
+        commit: 7c0c01d4a5edd344922bbeec3abd7de33cce7185
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-      - type: patch
-        path: appdata.patch
 
   - tcl.json
   - tk.json
