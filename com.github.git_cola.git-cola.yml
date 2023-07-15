@@ -36,3 +36,4 @@ modules:
   - tcl.json
   - tk.json
   - git.json
+  - git-lfs.json
