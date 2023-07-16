@@ -9,6 +9,7 @@ rename-desktop-file: git-cola.desktop
 rename-icon: git-cola
 rename-appdata-file: git-cola.appdata.xml
 finish-args:
+  - --device=dri
   - --share=ipc
   - --share=network
   - --socket=wayland
