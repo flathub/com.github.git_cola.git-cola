@@ -18,6 +18,7 @@ finish-args:
   - --socket=ssh-auth
 
 modules:
+  - python3-polib.json
   - python3-qtpy.json
   - python3-send2trash.json
   - name: git-cola
