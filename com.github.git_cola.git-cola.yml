@@ -29,8 +29,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
-        tag: v4.6.1
-        commit: 38604f46f170fba07f0d8545bf2d50d6319bc06f
+        tag: v4.7.0
+        commit: cd8de7abf324aa2be33fd8223320471e35fb47fc
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
