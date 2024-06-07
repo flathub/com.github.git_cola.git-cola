@@ -16,6 +16,7 @@ finish-args:
   - --socket=fallback-x11
   - --filesystem=home
   - --socket=ssh-auth
+  - --socket=gpg-agent
   - --system-talk-name=org.freedesktop.UDisks2
 
 modules:
