@@ -1,0 +1,14 @@
+{
+    "name": "python3-notify2",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"notify2==0.3.1\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/f9/69/99d2bc2d98a802b6f58d1e0a774a933b3fea5ef11455379561b71c04370b/notify2-0.3.1-py2.py3-none-any.whl",
+            "sha256": "d7e27e63c2120c074225e526754101e22f029e38e5f002b1ceaa965258bf1073"
+        }
+    ]
+}

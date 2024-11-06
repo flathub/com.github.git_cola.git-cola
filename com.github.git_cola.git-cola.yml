@@ -20,6 +20,7 @@ finish-args:
   - --system-talk-name=org.freedesktop.UDisks2
 
 modules:
+  - python3-notify2.json
   - python3-polib.json
   - python3-qtpy.json
   - python3-send2trash.json
