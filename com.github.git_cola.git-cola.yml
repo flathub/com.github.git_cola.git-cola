@@ -29,12 +29,13 @@ modules:
     build-commands:
       - python3 -m build --wheel --no-isolation
       - pip3 install --prefix=${FLATPAK_DEST} dist/*.whl
-      - make prefix=${FLATPAK_DEST} install-desktop-files install-icons install-htmldocs install-metainfo
+      - make prefix=${FLATPAK_DEST} install-desktop-files install-icons install-htmldocs
+        install-metainfo
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
-        tag: v4.9.0
-        commit: 69f06128acc9d94b848e969d9ef0f99b65df9856
+        tag: v4.10.0
+        commit: b1b4c2410c97d5892293ed0973ca1da3d32dc2f4
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
