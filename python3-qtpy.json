@@ -7,8 +7,23 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0a/0c/58a1e48209b0b1220ca2368435573f39ff1fa3577b7eef913f8960c5d429/QtPy-2.4.2-py3-none-any.whl",
-            "sha256": "5a696b1dd7a354cb330657da1d17c20c2190c72d4888ba923f8461da67aa1a1c"
+            "url": "https://files.pythonhosted.org/packages/69/76/37c0ccd5ab968a6a438f9c623aeecc84c202ab2fabc6a8fd927580c15b5a/QtPy-2.4.3-py3-none-any.whl",
+            "sha256": "72095afe13673e017946cc258b8d5da43314197b741ed2890e563cf384b51aa1",
+            "x-checker-data": {
+                "type": "pypi",
+                "name": "qtpy",
+                "packagetype": "bdist_wheel"
+            }
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl",
+            "sha256": "29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484",
+            "x-checker-data": {
+                "type": "pypi",
+                "name": "packaging",
+                "packagetype": "bdist_wheel"
+            }
         }
     ]
 }
