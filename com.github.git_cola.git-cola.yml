@@ -1,10 +1,15 @@
 app-id: com.github.git_cola.git-cola
 runtime: org.kde.Platform
-runtime-version: 6.8
+runtime-version: 6.9
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 6.8
+base-version: 6.9
 command: git-cola
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
+build-options:
+  env:
+    - BASEAPP_REMOVE_WEBENGINE=1
 rename-desktop-file: git-cola.desktop
 rename-icon: git-cola
 rename-appdata-file: git-cola.appdata.xml
