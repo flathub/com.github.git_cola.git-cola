@@ -1,14 +1,19 @@
 {
-    "name": "python3-Send2Trash",
+    "name": "python3-send2trash",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"Send2Trash\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"send2trash\" --no-build-isolation"
     ],
     "sources": [
         {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/40/b0/4562db6223154aa4e22f939003cb92514c79f3d4dccca3444253fd17f902/Send2Trash-1.8.3-py3-none-any.whl",
-            "sha256": "0c31227e0bd08961c7665474a3d1ef7193929fedda4233843689baa056be46c9"
+            "sha256": "0c31227e0bd08961c7665474a3d1ef7193929fedda4233843689baa056be46c9",
+            "x-checker-data": {
+                "type": "pypi",
+                "name": "send2trash",
+                "packagetype": "bdist_wheel"
+            }
         }
     ]
 }
