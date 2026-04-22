@@ -6,10 +6,6 @@
     "make-install-args": [
         "INSTALL_SYMLINKS=1"
     ],
-    "cleanup": [
-        "/lib/pkgconfig",
-        "/man"
-    ],
     "sources": [
         {
             "type": "archive",

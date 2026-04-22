@@ -6,8 +6,7 @@
         "chmod 755 /app/lib/libtk*.so"
     ],
     "cleanup": [
-        "/lib/pkgconfig",
-        "/man"
+        "/lib/tk*/demos"
     ],
     "sources": [
         {

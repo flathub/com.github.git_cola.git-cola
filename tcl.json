@@ -5,10 +5,6 @@
     "post-install": [
         "chmod 755 /app/lib/libtcl*.so"
     ],
-    "cleanup": [
-        "/lib/pkgconfig",
-        "/man"
-    ],
     "sources": [
         {
             "type": "archive",

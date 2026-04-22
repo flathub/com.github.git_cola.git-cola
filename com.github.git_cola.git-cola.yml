@@ -1,9 +1,9 @@
 app-id: com.github.git_cola.git-cola
 runtime: org.kde.Platform
-runtime-version: 6.9
+runtime-version: 6.10
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: 6.9
+base-version: 6.10
 command: git-cola
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
@@ -24,6 +24,16 @@ finish-args:
   - --socket=gpg-agent
   - --system-talk-name=org.freedesktop.UDisks2
 
+cleanup:
+  - /lib/pkgconfig
+  - /lib/python3.??/site-packages/*/tests
+  - /man
+  - /share/bash-completion
+  - /share/doc
+  - /share/gitweb
+  - /share/man
+  - "*.la"
+  - "*.a"
 modules:
   - python3-notify2.json
   - python3-polib.json
