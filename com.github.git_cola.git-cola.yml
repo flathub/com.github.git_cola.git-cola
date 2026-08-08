@@ -32,8 +32,8 @@ cleanup:
   - /share/doc
   - /share/gitweb
   - /share/man
-  - "*.la"
-  - "*.a"
+  - '*.la'
+  - '*.a'
 modules:
   - python3-notify2.json
   - python3-polib.json
@@ -49,8 +49,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/git-cola/git-cola.git
-        tag: v4.18.2
-        commit: 9e6ae4655f54b32f8efb0d02992c6fad60d2e7f6
+        tag: v4.19.0
+        commit: 0143def8dcb3194d47ea96cc0a57fb63464a4c4f
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
