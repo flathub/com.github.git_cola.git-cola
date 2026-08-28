@@ -8,11 +8,15 @@ command: git-cola
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 build-options:
+  append-path: '/usr/lib/sdk/rust-stable/bin'
   env:
-    - BASEAPP_REMOVE_WEBENGINE=1
+    BASEAPP_REMOVE_WEBENGINE: '1'
+    RUSTFLAGS: '-C link-arg=-fuse-ld=mold'
 rename-desktop-file: git-cola.desktop
 rename-icon: git-cola
 rename-appdata-file: git-cola.appdata.xml
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.rust-stable
 finish-args:
   - --device=dri
   - --share=ipc
