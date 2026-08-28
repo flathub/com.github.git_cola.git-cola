@@ -3,6 +3,7 @@
     "buildsystem": "autotools",
     "subdir": "unix",
     "post-install": [
+        "ln -s wish8.6 /app/bin/wish",
         "chmod 755 /app/lib/libtk*.so"
     ],
     "cleanup": [
