@@ -19,13 +19,13 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
 finish-args:
   - --device=dri
+  - --filesystem=home
   - --share=ipc
   - --share=network
-  - --socket=wayland
-  - --socket=fallback-x11
-  - --filesystem=home
-  - --socket=ssh-auth
   - --socket=gpg-agent
+  - --socket=ssh-auth
+  - --socket=wayland
+  - --socket=x11
   - --system-talk-name=org.freedesktop.UDisks2
 
 cleanup:
