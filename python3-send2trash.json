@@ -7,8 +7,8 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/1c/78/504fdd027da3b84ff1aecd9f6957e65f35134534ccc6da8628eb71e76d3f/send2trash-2.1.0-py3-none-any.whl",
-            "sha256": "0da2f112e6d6bb22de6aa6daa7e144831a4febf2a87261451c4ad849fe9a873c",
+            "url": "https://files.pythonhosted.org/packages/b2/de/7a9e77bd4c5f6eb11d90eb75807c1e1f0ea54997b05ae86d6fc5fa080c04/send2trash-2.2.0-py3-none-any.whl",
+            "sha256": "7f540296d59744fbf2f88b0d6f3a484af78c94d3c20e0875a4d5eed61aef037c",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "send2trash",
